@@ -7,5 +7,55 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: pkFont;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./../src/images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pkChoice {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pkChoice img {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+.pkChoice .choice1 {
+    margin-right: 60px;
+}
+
+.pkChoice .choice1:hover {
+    border: 4px dotted black;
+}
+
+.pkChoice .choice2 {
+    margin-left: 60px;
+}
+
+.pkChoice .choice2:hover {
+    border: 4px dotted black;
+}
+
+a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: x-large;
 }
 
