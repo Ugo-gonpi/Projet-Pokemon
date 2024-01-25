@@ -1,23 +1,11 @@
 @font-face {
     font-family: pkFont;
     src: url(./../src/font/PKMN\ RBYGSC.ttf);
-  }
+}
 
 body {
-    background-image: url(./../src/images/battle\ stage\ 4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100vw;
     height: 100vh;
     font-family: pkFont;
 }
 
-.pokemon1 img {
-    width: 150px;
-    height: 150px;
-}
-
-.pokemon2 img {
-    width: 150px;
-    height: 150px;
-}
