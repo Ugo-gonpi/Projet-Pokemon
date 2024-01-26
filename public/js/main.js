@@ -1,1 +1,2 @@
-import * as INSTANCES from "./modules/instances"
+import * as INSTANCES from "./modules/instances.js"
+

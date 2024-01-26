@@ -8,7 +8,7 @@ export let Aquali = {
     icebeam() {
         if (this.pv > 0 && Luxray.pv > 0) {
             Luxray.pv = Luxray.pv - this.pAtk
-            this.pAtk = 55
+            this.pAtk = 60
         } else {
 
         }
@@ -17,7 +17,7 @@ export let Aquali = {
     dig() {
         if (this.pv > 0 && Luxray.pv > 0) {
             Luxray.pv = Luxray.pv - this.pAtk
-            this.pAtk = 55
+            this.pAtk = 60
         } else {
 
         }
@@ -26,7 +26,7 @@ export let Aquali = {
     hydroPump() {
         if (this.pv > 0 && Luxray.pv > 0) {
             Luxray.pv = Luxray.pv - this.pAtk + 25
-            this.pAtk = 55
+            this.pAtk = 60
         } else {
 
         }
@@ -50,6 +50,7 @@ export let Luxray = {
         if (this.pv > 0 && Aquali.pv > 0) {
             Aquali.pv = Aquali.pv - this.pAtk + 25
             this.pv = this.pv - this.pAtk / 4
+            this.pAtk = 80
         } else {
 
         }
@@ -58,6 +59,7 @@ export let Luxray = {
     crunch() {
         if (this.pv > 0 && Aquali.pv > 0) {
             Aquali.pv = Aquali.pv - this.pAtk
+            this.pAtk = 80
         } else {
 
         }
@@ -66,6 +68,7 @@ export let Luxray = {
     playRough() {
         if (this.pv > 0 && Aquali.pv > 0) {
             Aquali.pv = Aquali.pv - this.pAtk
+            this.pAtk = 80
         } else {
 
         }
@@ -74,6 +77,7 @@ export let Luxray = {
     fireFang() {
         if (this.pv > 0 && Aquali.pv > 0) {
             Aquali.pv = Aquali.pv - this.pAtk / 2
+            this.pAtk = 80
         } else {
 
         }
