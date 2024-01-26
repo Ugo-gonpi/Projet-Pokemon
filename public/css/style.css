@@ -47,7 +47,7 @@ body {
 }
 
 .pkChoice .choice1:hover {
-    border: 4px dotted black;
+    outline: 4px dotted black;
 }
 
 .pkChoice .choice2 {
@@ -55,7 +55,7 @@ body {
 }
 
 .pkChoice .choice2:hover {
-    border: 4px dotted black;
+    outline: 4px dotted black;
 }
 
 .nom {
