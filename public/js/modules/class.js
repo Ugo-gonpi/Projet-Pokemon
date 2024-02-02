@@ -48,7 +48,7 @@ export let Luxray = {
 
     wildCharge() {
         if (this.pv > 0 && Aquali.pv > 0) {
-            Aquali.pv = Aquali.pv - this.pAtk + 25
+            Aquali.pv = Aquali.pv - this.pAtk + 40
             this.pv = this.pv - this.pAtk / 4
             this.pAtk = 80
         } else {
